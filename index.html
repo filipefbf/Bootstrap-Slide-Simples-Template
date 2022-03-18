@@ -7,7 +7,7 @@
     <title>Projeto Bootstrap</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <style type="text/css">
-        #area {
+        #area, #area2, #area3, #area4 {
             border: 1px solid #000;
             padding: 20px;
             background-color: #eee;
@@ -17,21 +17,59 @@
 <body>    
     <div class="container">
                 
-        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#area">Mostrar/Esconder</button>
-        <div class="collapse" id="area">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sit vel nobis hic esse? Nam aspernatur similique esse quam cum quibusdam suscipit, minus dignissimos veniam corrupti ducimus eveniet excepturi? Nemo.
-        </div>
-        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#area">Mostrar/Esconder</button>
-        <div class="collapse" id="area">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sit vel nobis hic esse? Nam aspernatur similique esse quam cum quibusdam suscipit, minus dignissimos veniam corrupti ducimus eveniet excepturi? Nemo.
-        </div>
-        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#area">Mostrar/Esconder</button>
-        <div class="collapse" id="area">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sit vel nobis hic esse? Nam aspernatur similique esse quam cum quibusdam suscipit, minus dignissimos veniam corrupti ducimus eveniet excepturi? Nemo.
-        </div>
-        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#area">Mostrar/Esconder</button>
-        <div class="collapse" id="area">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sit vel nobis hic esse? Nam aspernatur similique esse quam cum quibusdam suscipit, minus dignissimos veniam corrupti ducimus eveniet excepturi? Nemo.
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#c1" aria-controls="#c1">Titulo do Card 1</button>
+                </div>
+                <div id="c1" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Nihil earum non cum distinctio consequuntur nostrum? Voluptate 
+                        sequi cum earum laudantium qui officiis reprehenderit optio, nemo 
+                        ad ut quam consequuntur eligendi.
+                    </div>
+                </div>                
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#c2" aria-controls="#c2">Titulo do Card 1</button>
+                </div>
+                <div id="c2" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Nihil earum non cum distinctio consequuntur nostrum? Voluptate 
+                        sequi cum earum laudantium qui officiis reprehenderit optio, nemo 
+                        ad ut quam consequuntur eligendi
+                    </div>
+                </div>                
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#c3" aria-controls="#c3">Titulo do Card 1</button>
+                </div>
+                <div id="c3" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Nihil earum non cum distinctio consequuntur nostrum? Voluptate 
+                        sequi cum earum laudantium qui officiis reprehenderit optio, nemo 
+                        ad ut quam consequuntur eligendi
+                    </div>
+                </div>                
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#c4" aria-controls="#c4">Titulo do Card 1</button>
+                </div>
+                <div id="c4" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Nihil earum non cum distinctio consequuntur nostrum? Voluptate 
+                        sequi cum earum laudantium qui officiis reprehenderit optio, nemo 
+                        ad ut quam consequuntur eligendi
+                    </div>
+                </div>                
+            </div>
         </div>
 
     </div>
