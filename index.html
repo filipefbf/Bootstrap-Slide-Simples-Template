@@ -17,58 +17,24 @@
 <body>    
     <div class="container">
                 
-        <div id="accordion">
-            <div class="card">
-                <div class="card-header">
-                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#c1" aria-controls="#c1">Titulo do Card 1</button>
-                </div>
-                <div id="c1" class="collapse show" data-bs-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Nihil earum non cum distinctio consequuntur nostrum? Voluptate 
-                        sequi cum earum laudantium qui officiis reprehenderit optio, nemo 
-                        ad ut quam consequuntur eligendi.
-                    </div>
-                </div>                
+        <div class="dropdown dropup">
+            <a href="#" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Editar</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://google.com">Google</a>
+                <a class="dropdown-item" href="https://facebook.com" target="blank">facebook</a>
+                <a class="dropdown-item" href="https://youtube.com">youtube</a>
             </div>
-            <div class="card">
-                <div class="card-header">
-                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#c2" aria-controls="#c2">Titulo do Card 1</button>
-                </div>
-                <div id="c2" class="collapse" data-bs-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Nihil earum non cum distinctio consequuntur nostrum? Voluptate 
-                        sequi cum earum laudantium qui officiis reprehenderit optio, nemo 
-                        ad ut quam consequuntur eligendi
-                    </div>
-                </div>                
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#c3" aria-controls="#c3">Titulo do Card 1</button>
-                </div>
-                <div id="c3" class="collapse" data-bs-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Nihil earum non cum distinctio consequuntur nostrum? Voluptate 
-                        sequi cum earum laudantium qui officiis reprehenderit optio, nemo 
-                        ad ut quam consequuntur eligendi
-                    </div>
-                </div>                
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#c4" aria-controls="#c4">Titulo do Card 1</button>
-                </div>
-                <div id="c4" class="collapse" data-bs-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Nihil earum non cum distinctio consequuntur nostrum? Voluptate 
-                        sequi cum earum laudantium qui officiis reprehenderit optio, nemo 
-                        ad ut quam consequuntur eligendi
-                    </div>
-                </div>                
+        </div>
+        <div class="dropdown">
+            <a href="#" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Editar</a>
+            <div class="dropdown-menu">
+                <form method="post">
+                    login: <br>
+                    <input type="text">
+                </form>
+                <a class="dropdown-item" href="https://google.com">Google</a>
+                <a class="dropdown-item" href="https://facebook.com" target="blank">facebook</a>
+                <a class="dropdown-item" href="https://youtube.com">youtube</a>
             </div>
         </div>
 
