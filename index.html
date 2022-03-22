@@ -10,48 +10,34 @@
         body {
             border: 1px solid #000;
             padding: 20px;
-            background-color: #eee;
+           /* background-color: #eee; */
         }
     </style>
 </head>
 <body>    
     <div class="container">                
     
-        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#janela" >Clique aqui para abrir</button>
-        <div class="modal fade" role="dialog" id="janela">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5>Titulo interesante</h5>
-                        <button type="button" class="close btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis cumque cupiditate ratione! Tempora dolore dicta non perferendis! Quidem optio neque officia quasi blanditiis eius in iste. Debitis suscipit ratione quaerat?</div>
-                    <div class="modal-footer">
-                        <button class="btn btn-danger" data-bs-dismiss="modal">Fechar Janela</button>
-                    </div>                    
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <a href="#" class="navbar-brand">Empresa XYZ</a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navbarMenu">
+                <div class="navbar-nav active">
+                    <a href="#" class="nav-item nav-link">Link 1</a>
+                    <a href="#" class="nav-item nav-link">Link 2</a>
+                    <a href="#" class="nav-item nav-link">Link 3</a>
+                    <a href="#" class="nav-item nav-link">Link 4</a>
                 </div>
             </div>
-        </div>
-        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#janela2" >Clique aqui para abrir</button>
-        <div class="modal fade" role="dialog" id="janela2">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5>Titulo interesante</h5>
-                        <button type="button" class="close btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                       <div class="row">
-                            <div class="col">Item-1</div>
-                            <div class="col">Item-2</div>
-                       </div> 
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-danger" data-bs-dismiss="modal">Fechar Janela</button>
-                    </div>                    
-                </div>
-            </div>
-        </div>
+            <form action="" method="post" class="form-inline">
+                <input type="text" class="form-control" placeholder="Pesquisar...">
+            </form>
+
+            <span class="navbar-text"> Algum texto</span>
+        </nav>
 
     </div>
 
