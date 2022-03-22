@@ -16,39 +16,47 @@
 </head>
 <body>    
     <div class="container">                
-
-                <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="d-flex justify-content-between">
-                            <h5>Titulo da Notícia</h5>
-                            <small>2 dias atrás</small>
-                        </div>
-                        <p>Algum resumo da notícia que está no título acima</p>
-                    </a>                    
+    
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#janela" >Clique aqui para abrir</button>
+        <div class="modal fade" role="dialog" id="janela">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>Titulo interesante</h5>
+                        <button type="button" class="close btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis cumque cupiditate ratione! Tempora dolore dicta non perferendis! Quidem optio neque officia quasi blanditiis eius in iste. Debitis suscipit ratione quaerat?</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Fechar Janela</button>
+                    </div>                    
                 </div>
-                <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="d-flex justify-content-between">
-                            <h5>Titulo da Notícia</h5>
-                            <small>2 dias atrás</small>
-                        </div>
-                        <p>Algum resumo da notícia que está no título acima</p>
-                    </a>                    
+            </div>
+        </div>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#janela2" >Clique aqui para abrir</button>
+        <div class="modal fade" role="dialog" id="janela2">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>Titulo interesante</h5>
+                        <button type="button" class="close btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                       <div class="row">
+                            <div class="col">Item-1</div>
+                            <div class="col">Item-2</div>
+                       </div> 
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Fechar Janela</button>
+                    </div>                    
                 </div>
-                <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="d-flex justify-content-between">
-                            <h5>Titulo da Notícia</h5>
-                            <small>2 dias atrás</small>
-                        </div>
-                        <p>Algum resumo da notícia que está no título acima</p>
-                    </a>                    
-                </div>
-                
+            </div>
+        </div>
 
     </div>
 
     <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
 </body>
 </html>
